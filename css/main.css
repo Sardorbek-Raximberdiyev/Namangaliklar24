@@ -1,0 +1,118 @@
+
+
+body{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Rubik", "Arial", sans-serif ;
+  font-style: 16px;
+  line-height: 22px;
+  background-color: #fff;
+  color: #4a4b4c;
+}
+
+.button {
+  display: inline-block;
+  font-size: 16px;
+  line-height: normal;
+  padding: 13px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.container{
+  width: 100%;
+  max-width: 1240px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sayt-header {
+}
+
+.sayt-header-top {
+  background-color: #f6f6f6;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.sayt-header-top-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  display: flex;
+  padding: 8px 6px;
+  border-radius: 7px;
+  margin-right: 35px;
+  background-color: #fff;
+}
+
+.logo-img:hover{
+  opacity: 0.8;
+}
+
+.logo-img:active{
+  opacity: 0.6;
+}
+
+.currens-rates {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  margin-right: auto;
+  align-items: center;
+  list-style-type: none;
+}
+
+.currens-rates-type {
+  color: #2959ce;
+}
+
+.currency-rates-item:not(:last-child){
+  margin-right: 25px;
+}
+
+.lang-toggle {
+  display: flex;
+  padding: 3px;
+  margin-right: 25px;
+  border-radius: 39px;
+  background-color: #dce6ff;
+
+}
+.lang-toggle-link {
+  width: 30px;
+  height: 30px;
+  font-size: 13px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  color:#a6a6a6;
+}
+
+
+.lang-toggle-link-active {
+  color: #000;
+  background-color: #fff;
+}
+
+.button-primary {
+  color: #fff;
+  background-color: #7296EC;
+}
+
+.button-primary:hover{
+  opacity: 0.8;
+}
+
+.button-primary:active{
+  opacity: 0.6;
+}
