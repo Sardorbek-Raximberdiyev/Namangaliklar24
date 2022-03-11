@@ -9,7 +9,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
-
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
@@ -18,7 +17,7 @@
     <div class="sayt-header-top">
       <div class=" sayt-header-top-container container">
 
-        <a href="index.html">
+        <a class="header-logo-img" href="index.html">
           <img class="logo-img" src="images/logo.svg" alt="logo" width="264" height="28">
         </a>
 
@@ -33,6 +32,11 @@
           </li>
         </ul>
 
+        <!-- global-form -->
+        <form class="global-search-form" action="https://echo.htmlacademy">
+          <input class="global-search-form-input" type="search" name="search" placeholder="Поиск" aria-label="Поиск" required>
+        </form>
+
         <!-- GLOBALSEARCH FORM -->
         <div class="lang-toggle">
           <a class="lang-toggle-link lang-toggle-link-active" href="index.html">УЗ</a>
@@ -42,6 +46,138 @@
         <a class="button button-primary" href="#">Войти</a>
       </div>
     </div>
+
+
+    <div class="container">
+      <!-- SITENAV -->
+      <nav class="stenav">
+        <ul class="sitenav-list">
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Главное</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Интересное</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Экономика</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Политика</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Общество</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Технологии</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Спорт</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Культура</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Происшествия</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Наука</a></li>
+        </ul>
+      </nav>
+      <aside class="site-header-banner">
+        <a class="site-header-banner-link" href="#">
+          <img src="images/optimize1.jpg" alt="#" width="1200" height="128" srcset="images/optimize1.jpg 1x, images/optimize2.jpg 2x">
+        </a>
+      </aside>
+    </div>
   </header>
+
+  <main class="main-content">
+    <div class="container">
+      <!-- <h1>Namanganlilar 24</h1> -->
+
+      <!-- TOP NEWS -->
+      <section class="top-news">
+        <div class="news-grid">
+          <article class="news-grid-item article-card">
+            <h3 class="article-card-title">
+              <a href="" class="article-card-link">
+                Кандидат на пост канцлера ФРГ Шольц назвал условия коалиционного соглашения
+              </a>
+            </h3>
+            <p class="article-card-text">Лидер Социал-демократической партии Германии (СДПГ) и кандидат на должность...</p>
+            <img class="article-card-img" src="images/bayroq.jpg" alt="bayroq" width="369" height="165" srcset="images/bayroq.jpg 1x, images/bayroq2x.jpg 2x">
+            <footer class="article-card-footer">
+              <img class="article-card-source-icon" src="images/kb.svg" alt="icon" width="20" height="20" srcset="images/kb.svg 1x, images/kb2x.svg 2x">
+              <div class="article-card-source-time">
+                <span class="article-card-source">ИА Красная Весна</span>
+                <time datetime="2022-03-11T17:00">15:55</time>
+              </div>
+            </footer>
+          </article>
+          <article class="news-grid-item article-card">
+            <h3 class="article-card-title">
+              <a href="" class="article-card-link">
+                Ученые доказали экспериментальным путем пользу покровных культур
+              </a>
+            </h3>
+            <p class="article-card-text">Новое исследование ученых университета Иллинойса объединяет полевые данные... </p>
+            <img class="article-card-img" src="images/bug'doy.jpg" alt=" " width="369" height="165" srcset="images/bug'doy.jpg 1x, images/bug'doy2x.jpg 2x">
+            <footer class="article-card-footer">
+              <img class="article-card-source-icon" src="images/g.svg" alt="icon" width="20" height="20" srcset="images/g.svg 1x, images/g2x.svg 2x">
+              <div class="article-card-source-time">
+                <span class="article-card-source">Газета.Ru</span>
+                <time datetime="2022-03-11T17:00">12:54</time>
+              </div>
+            </footer>
+          </article>
+          <article class="news-grid-item article-card">
+            <h3 class="article-card-title">
+              <a href="" class="article-card-link">
+                Baidu запустила публичный сервис роботакси Apollo Go в Шанхае
+              </a>
+            </h3>
+            <p class="article-card-text">Автопарк Baidu состоит из модифицированных электромобилей EV... </p>
+            <img class="article-card-img" src="images/soyabon.jpg" alt="bayroq" width="369" height="165" srcset="images/soyabon.jpg 1x, images/soyabon2x.jpg 2x">
+            <footer class="article-card-footer">
+              <img class="article-card-source-icon" src="images/x.svg" alt="icon" width="20" height="20" srcset="images/x.svg 1x, images/x2x.svg 2x">
+              <div class="article-card-source-time">
+                <span class="article-card-source">Хайтек+</span>
+                <time datetime="2022-03-11T17:00">13:44</time>
+              </div>
+            </footer>
+          </article>
+          <article class="news-grid-item article-card">
+            <h3 class="article-card-title">
+              <a href="" class="article-card-link">
+                Стали известны ёмкости аккумуляторов всех моделей iPhone 13
+              </a>
+            </h3>
+            <p class="article-card-text">Во время презентации iPhone 13 Apple придала большое значения...</p>
+            <img class="article-card-img" src="images/telefon.jpg" alt="bayroq" width="369" height="165" srcset="images/telefon.jpg 1x, images/telefon2x.jpg 2x">
+            <footer class="article-card-footer">
+              <img class="article-card-source-icon" src="images/logo-img.svg" alt="icon" width="20" height="20" srcset="images/logo-img.svg 1x, images/logo-img2x.svg 2x">
+              <div class="article-card-source-time">
+                <span class="article-card-source">Digger.ru</span>
+                <time datetime="2022-03-11T17:00">14:25</time>
+              </div>
+            </footer>
+          </article>
+          <article class="news-grid-item article-card">
+            <h3 class="article-card-title">
+              <a href="" class="article-card-link">
+                Nature: ученые смогли доказать природное происхождение коронавируса SARS-CoV-2
+              </a>
+            </h3>
+            <p class="article-card-text">Во время презентации iPhone 13 Apple придала большое значение...</p>
+            <img class="article-card-img" src="images/labarant.jpg" alt="bayroq" width="369" height="165" srcset="images/labarant.jpg 1x, images/labarant2x.jpg 2x">
+            <footer class="article-card-footer">
+              <img class="article-card-source-icon" src="images/l.svg" alt="icon" width="20" height="20" srcset="images/l.svg 1x, images/l2x.svg 2x">
+              <div class="article-card-source-time">
+                <span class="article-card-source">Lenta.ru</span>
+                <time datetime="2022-03-11T17:00">10:54</time>
+              </div>
+            </footer>
+          </article>
+          <article class="news-grid-item article-card">
+            <h3 class="article-card-title">
+              <a href="" class="article-card-link">
+                Китайская марка JAC повысила цены на лифтбек и пикап в России
+              </a>
+            </h3>
+            <p class="article-card-text">Две модели китайского бренда JAC из пяти, представленных на российском...</p>
+            <img class="article-card-img" src="images/mashina.jpg" alt="bayroq" width="369" height="165" srcset="images/mashina.jpg 1x, images/mashina2x.jpg 2x">
+            <footer class="article-card-footer">
+              <img class="article-card-source-icon" src="" alt="icon" width="20" height="20" srcset="">
+              <div class="article-card-source-time">
+                <span class="article-card-source">Тарантас Ньюс</span>
+                <time datetime="2022-03-11T17:00">10:44</time>
+              </div>
+            </footer>
+          </article>
+        </div>
+      </section>
+    </div>
+  </main>
 </body>
 </html>
