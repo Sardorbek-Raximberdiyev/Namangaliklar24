@@ -305,10 +305,6 @@ body{
   background-color: #f78b3b;
 }
 
-footer:focus {
-  outline: 2px dashed #f8f8f8;
-  outline-offset: 3px;
-}
 
 /* GLOBAL-NEWS */
 
@@ -490,6 +486,16 @@ footer:focus {
 
 
 /* SAYT FOOTER */
+.sayt-footer-link:focus{
+  outline: 2px solid #fff ;
+}
+
+
+.site-footer:focus {
+  outline: 2px dashed #f8f8f8;
+  outline-offset: 3px;
+}
+
 
 .site-footer {
   padding-top: 40px;
