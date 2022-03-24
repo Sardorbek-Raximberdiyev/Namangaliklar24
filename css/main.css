@@ -319,6 +319,18 @@ a {
   font-weight: 500;
 }
 
+.site-contact-really-link:not(:last-child){
+  color: #2959ce;
+}
+
+.site-contact-really-link:not(:last-child):hover{
+  opacity: 0.8;
+}
+
+.site-contact-really-link:not(:last-child):active{
+  opacity: 0.6;
+}
+
 
 .site-hero-content-child{
   box-sizing: border-box;
