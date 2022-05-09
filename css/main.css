@@ -1,3 +1,7 @@
+  *:focus {
+  outline: 2px dashed #7296EC;
+  outline-offset: 3px;
+}
 
 html{
   height: 100%;
@@ -10,21 +14,27 @@ body{
   padding: 0;
   box-sizing: border-box;
   margin: 0;
-  font-family: "Rubik", "Arial", sans-serif ;
-  font-style: 16px;
+  font-family: "Rubik", "Arial", sans-serif;
+  font-size: 16px;
   line-height: 22px;
   background-color: #fff;
   color: #4a4b4c;
 }
 
+.visualy-headen {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: calc(0 0 0 0);
+  overflow: hidden;
+}
+
 a {
   display: inline-block;
   text-decoration: none;
-}
-
-*:focus {
-  outline: 2px dashed #7296EC;
-  outline-offset: 3px;
 }
 
 .button{
@@ -56,7 +66,6 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
-
 
 .sayt-header-top {
   margin-bottom: 10px;
@@ -815,4 +824,79 @@ a {
 .sayt-footer-icon-link:focus {
   outline: 2px dashed #fff ;
   outline-offset: 3px;
+}
+
+
+
+/* MODAL */
+
+.modal {
+  position: fixed;
+  z-index: 9999;
+  display: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-open {
+  display: block;
+}
+
+.modal-dialog {
+  width: 100%;
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modal-content {
+  margin-top: 200px;
+  padding: 50px;
+  border-radius: 20px;
+  background-color: #fff;
+  position: relative;
+}
+
+
+.close-button {
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  border: 0;
+  background-color: transparent;
+}
+
+.close-button-img {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+.modal-text {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-size: 26px;
+  line-height: 34px;
+  font-weight: 500;
+  color: #000;
+}
+
+.button-block {
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.button {
+
+}
+
+.button-orange {
 }
