@@ -18,4 +18,4 @@ elCloseButton.addEventListener('click', function () {
 
 setTimeout(function () {
   elModal.classList.add('modal-open')
-}, 30000);
+}, 3000);
