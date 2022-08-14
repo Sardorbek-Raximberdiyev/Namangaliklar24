@@ -295,6 +295,10 @@ a {
   resize: vertical;
 }
 
+.site-contact-textarea::placeholder {
+  font-family: "Rubik", "Arial", sans-serif ;
+}
+
 .site-contact-button {
   display: block;
   margin-left: auto;
@@ -472,6 +476,7 @@ a {
   font-size: 20px;
   line-height: 26px;
   font-weight: 500;
+  margin-right: 10px;
   }
 
 .button-orange {
@@ -480,6 +485,7 @@ a {
   Line-height: 24px;
   color: #fff;
   background-color: #f78b3b;
+  text-align: center;
 }
 
 
@@ -894,9 +900,135 @@ a {
   justify-content: center;
 }
 
-.button {
+
+@media only screen and (max-width: 1240px) {
+  .news-grid-item {
+    width: calc(100% / 3 - 10px);
+  }
+
+  .article-card-img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .news-grid-item {
+    width: calc(50% - 10px);
+  }
+
+  .news-grid-item:nth-child(2n) {
+    margin-right: 0;
+  }
+
+  .notification-cta {
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .layout-2-1 {
+    flex-direction: column;
+  }
+
+  .layout-2-1-main {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .news-list-more-button {
+    margin-bottom: 80px;
+  }
+
+  .layout-2-1-saytbar {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .layout-chegirma-link {
+    width: 100%;
+  }
+
+  .layout-chegirma-img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .notification-cta {
+    padding: 25px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .article-card-horizontal-img {
+    width: 200px;
+  }
+}
+
+
+@media only screen and (max-width: 650px) {
+  .notification-cta {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .notification-cta-text {
+    margin-bottom: 16px;
+    margin-right: 0;
+  }
+
+  .button-orange {
+    display: flex;
+    font-size: 18px;
+    margin-left: auto;
+    align-items: flex-end;
+  }
+
+  .article-card-horizontal-img {
+    width: 190px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .news-grid {
+    margin-right: 0;
+  }
+
+  .news-grid-item {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .notification-cta {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .button-orange {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .article-card-horizontal {
+    display: block;
+  }
+
+  .article-card-horizontal-img {
+    width: 100%;
+    margin-right: 0;
+  }
 
 }
 
-.button-orange {
+@media only screen and (max-width: 500px) {
+  .notification-cta {
+    padding: 20px;
+  }
+
+  .notification-cta-text {
+    font-size: 18px;
+    line-height: 1.2;
+  }
 }
