@@ -1023,6 +1023,7 @@ a {
   .layout-chegirma-img {
     width: 100%;
     object-fit: cover;
+    margin-bottom: 70px;
   }
 
   .sayt-footer-text {
@@ -1060,6 +1061,10 @@ a {
     margin-right: 0;
     margin-bottom: 20px;
   }
+
+  .layout-chegirma-img {
+    margin-bottom: 60px;
+  }
 }
 
 
@@ -1083,6 +1088,10 @@ a {
 
   .article-card-horizontal-img {
     width: 190px;
+  }
+
+  .layout-chegirma-img {
+    margin-bottom: 50px;
   }
 }
 
@@ -1272,6 +1281,11 @@ a {
     font-size: 22px;
     line-height: 1.2;
   }
+
+  .layout-chegirma-img {
+    margin-bottom: 40px;
+  }
+
 }
 
 @media only screen and (max-width: 450px) {
