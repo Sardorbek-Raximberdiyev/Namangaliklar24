@@ -503,6 +503,7 @@ a {
   padding: 24px 70px 24px 29px;
   border-radius: 10px;
   background-image: url(../images/bakcground.svg);
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: space-between;
@@ -510,6 +511,7 @@ a {
 }
 
 .notification-cta-text {
+  max-width: 404px;
   color: #000000;
   font-size: 20px;
   line-height: 26px;
@@ -939,11 +941,6 @@ a {
 
 
 @media only screen and (max-width: 1240px) {
-  .sitenav-list {
-    flex-wrap: nowrap;
-    overflow: auto;
-  }
-
   .news-grid-item {
     width: calc(100% / 3 - 10px);
   }
@@ -1015,7 +1012,7 @@ a {
   }
 
   .news-list-more-button {
-    margin-bottom: 80px;
+    margin-bottom: 70px;
   }
 
   .layout-2-1-saytbar {
@@ -1060,6 +1057,7 @@ a {
 @media only screen and (max-width: 800px) {
   .notification-cta {
     padding: 25px;
+    margin: 50px 0;
   }
 
   /* CONTACT */
@@ -1107,6 +1105,7 @@ a {
   .notification-cta {
     flex-direction: column;
     align-items: flex-start;
+    margin: 40px 0;
   }
 
   .notification-cta-text {
@@ -1254,6 +1253,11 @@ a {
     overflow: auto;
   }
 
+  .notification-cta {
+    border-radius: 8px;
+    margin: 30px 0;
+  }
+
   .button-primary {
     margin-left: auto;
   }
@@ -1338,6 +1342,10 @@ a {
   .news-container {
     margin-bottom: 60px;
   }
+
+  .button-block {
+    margin-bottom: 60px;
+  }
 }
 
 @media only screen and (max-width: 450px) {
@@ -1387,6 +1395,13 @@ a {
     font-size: 20px;
     line-height: 1.2;
   }
+
+  .button-orange {
+    font-size: 16px;
+    line-height: 1.2;
+    padding: 10px 16px;
+    border-radius: 7px;
+  }
 }
 
 @media only screen and (max-width: 350px) {
@@ -1422,5 +1437,9 @@ a {
 
   .site-contact-button {
     padding: 14px 26px;
+  }
+
+  .button-block {
+    margin-bottom: 40px;
   }
 }
